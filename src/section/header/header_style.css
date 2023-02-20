@@ -1,0 +1,48 @@
+.navbar{
+    display: flex;
+    position: sticky;
+    width: 100vw;
+    height: 5vh;
+    background-color: blue;
+}
+.image_holder{
+    position: absolute;
+    height: 70vh;
+    width: 100vw;
+    z-index: 2;
+    
+}
+.image_holder img{
+    
+ width: 100%;
+ height: 100%;
+}
+.overlay{
+    position:absolute;
+    left: 50%;
+    top: 40%;
+    z-index: 4;
+    height: fit-content;
+}
+.slider_wrapper{
+    display: flex;
+    width: 100%;
+    height: 70vh;
+    z-index: 1;
+    justify-content: center;
+    align-items: center;
+}
+.dark{
+    position:relative;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 3;
+    background: rgba(0, 0, 0, 0.34);
+}
+.test{
+    height: 25vh;
+    width: 100%;
+    background-color: aqua;
+}

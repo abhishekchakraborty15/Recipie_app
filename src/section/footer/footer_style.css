@@ -1,0 +1,18 @@
+.footer_wrapper{
+    /* height: 30vh; */
+    max-height: 30vh;
+    min-height: 25vh;
+    background-color: #110a3000;
+    display:flex ;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer1{
+    margin-left: 5%;
+    width: 50%;
+    /* align-items: left; */
+    /* justify-content: flex-start; */
+}
+.footer2{
+    margin-right: 5%;
+}
