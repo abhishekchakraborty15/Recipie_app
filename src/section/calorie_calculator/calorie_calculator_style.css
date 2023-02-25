@@ -4,6 +4,7 @@
     border: 2px solid red;
     justify-content: center;
     align-content: center;
+    height: 75vh;
 }
 .Box input{
     width: 50%;

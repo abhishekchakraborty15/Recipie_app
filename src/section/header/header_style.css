@@ -1,13 +1,7 @@
-.navbar{
-    display: flex;
-    position: sticky;
-    width: 100vw;
-    height: 5vh;
-    background-color: blue;
-}
+
 .image_holder{
     position: absolute;
-    height: 70vh;
+    height: 95vh;
     width: 100vw;
     z-index: 2;
     
@@ -27,7 +21,7 @@
 .slider_wrapper{
     display: flex;
     width: 100%;
-    height: 70vh;
+    height: 95vh;
     z-index: 1;
     justify-content: center;
     align-items: center;
@@ -39,10 +33,6 @@
     width: 100%;
     height: 100%;
     z-index: 3;
-    background: rgba(0, 0, 0, 0.34);
+    background: rgba(0, 0, 0, 0.114);
 }
-.test{
-    height: 25vh;
-    width: 100%;
-    background-color: aqua;
-}
+
